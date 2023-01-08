@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style>
+      * {
+        border: 1px bisque;
+        border-style: dotted;
+      }
+      /* border는 inline, box 모두 적용 된다 */
+      body {
+        margin: 20px;
+        padding: 10px;
+        /* 상 우 하 좌 */
+        background-color: brown;
+      }
+
+      div {
+        border: 2px;
+        border-style: solid;
+        /* height: 150px; */
+        /* 높이 */
+        /* width: 150px; */
+        /* 너비 */
+        padding: 20px;
+        /* div 모두 적용 */
+        /* div는 옆에 요소를 넣을 수 없다 block */
+        /* inline은 높이와 너비 요소가 없다. 반대로 block은 높이와 너비 요소가 있다. */
+        /* block은 box다 */
+        /* block 3가지 속성 : margin, border, padding
+        margin : 박스(box)의 보더(border)의 바깥(경계)에 있는 공간 */
+      }
+      html {
+        background-color: blueviolet;
+      }
+      #one {
+        background-color: aliceblue;
+        width: 150px;
+        height: 150px;
+      }
+      #two {
+        background-color: aqua;
+        width: 100px;
+        height: 100px;
+      }
+      #three {
+        background-color: black;
+        width: 50px;
+        height: 50px;
+      }
+    </style>
+    <meta charset="UTF-8" />
+    <title>css1day2</title>
+  </head>
+  <body>
+    <div id="one">
+      <div id="two"><div id="three"></div></div>
+    </div>
+    <span>hello</span>
+  </body>
+</html>

@@ -1,0 +1,8 @@
+/* html 태그를 가리키는 코드(select)
+ex) 글씨 색깔을 가리킨다-속성 */
+body{
+    background-color: bisque;
+}
+h1{
+    color: aqua;
+}

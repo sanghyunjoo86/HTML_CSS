@@ -1,0 +1,40 @@
+html{
+    background-color: tomato;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.box{
+    border : 3px;
+    border-style: solid;
+    border-color: white;
+    background-color: #008080;
+    width: 80px;
+    height: 80px;
+}
+.box_wide{
+    border : 3px;
+    border-style: dashed;
+    border-color: white;
+    background-color: #008080;
+    width: 300px;
+    height: 80px;
+}
+#one{
+    border: 3px;
+    border-style: solid;
+    display: flex;
+    background-color: #f5deb3;
+    width: 350px;
+    height: 350px;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+
+
+

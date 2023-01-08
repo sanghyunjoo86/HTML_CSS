@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>css1day</title>
+    <style>
+      h1 {
+        color: yellowgreen;
+        text-decoration: underline;
+        font-style: italic;
+        font-size: 50px;
+        /* font size(x)- 간격 쓰지말기 
+        속성이름 : 속성값*/
+      }
+      address {
+        text-align: center;
+        color: tomato;
+      }
+    </style>
+    <!-- 첫번째 방법 -->
+    <link href="style설명.css" rel="stylesheet" />
+    <!-- 두번쨰 방법 -->
+  </head>
+  <body>
+    <!-- css 추가 방법
+    1. 같은 HTML 파일을 HTML, CSS 코드를 합쳐서 사용(추천 X)
+    head 태그에 style 태그를 추가해서 코드를 짠다.
+    2. CSS 와 HTML 파일을 분리해서 사용한다. (추천)
+    link를 통해 style.css(href="CSS 파일")와 연결한다.
+    CSS는 위에서 아래로 적용이 된다.(속성값)
+ -->
+    <header>
+      <h1>The Nico Times</h1>
+    </header>
+    <main>
+      <address>123 road Altavista</address>
+    </main>
+    <footer>&copy; N.C</footer>
+  </body>
+</html>

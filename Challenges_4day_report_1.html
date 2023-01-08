@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="kr">
+  <head>
+    <link
+      rel="shortcut icon"
+      size="16x16 32x32 64x64"
+      href="http://naver.com/favicon.ico?1"
+    />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="nomad coder Report" />
+    <title>Awesome-report day1</title>
+  </head>
+  <body>
+    <h1>Create An Account</h1>
+    <form>
+      <div>
+        <input type="text" required id="First_name" placeholder="Fist name" />
+        <input type="text" required id="last_name" placeholder="Last name" />
+        <input type="text" required id="username" placeholder="Username" />
+      </div>
+      <div>
+        <input type="email" required id="email" placeholder="Email" />
+
+        <input
+          type="password"
+          required
+          id="password"
+          placeholder="Password"
+          minlength="10"
+        />
+      </div>
+      <div>
+        <label for="Birth_date"> Birth date </label>
+        <input
+          type="date"
+          required
+          id="Birth_date"
+          min="2020-01-01"
+          max="2023-12-31"
+        />
+      </div>
+      <div>
+        <label for="happy"> How happy are you? </label>
+        <input type="range" id="happy" list="markers" />
+        <datalist id="markers">
+          <option value="0"></option>
+          <option value="10"></option>
+          <option value="20"></option>
+          <option value="30"></option>
+          <option value="40"></option>
+          <option value="50"></option>
+          <option value="60"></option>
+          <option value="70"></option>
+          <option value="80"></option>
+          <option value="90"></option>
+          <option value="100"></option>
+        </datalist>
+      </div>
+      <div>
+        <label> What is your fav.color?</label>
+        <input type="color" />
+      </div>
+      <div>
+        <input type="submit" value="Create Account" />
+      </div>
+    </form>
+  </body>
+</html>
